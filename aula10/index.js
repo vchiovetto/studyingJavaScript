@@ -1,0 +1,28 @@
+const person = {
+  a: "vanessa",
+  b() {
+    console.log("Hey!");
+  },
+};
+
+console.log([person, person]);
+person.b();
+
+const variavelString = "eu sou uma string"; //STRING
+const variavelNumber = 10; // NUMBER q
+const variavelBoolean = false; //BOOLEAN
+const varaivelObjeto = {
+  // OBJETO
+  nome: "Vanessa",
+};
+const variavelFuncao = () => {
+  // FUNCAO
+  console.log("Vanessa funcao");
+};
+
+function variavelFuncao2() {
+  // FUNCAO
+  console.log("Vanessa funcao");
+}
+
+const variavelArray = [1, 2, 3]; // ARRAY
